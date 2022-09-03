@@ -1,0 +1,17 @@
+figcaption {
+  text-align: center;
+}
+
+.dnd-class-img {
+  max-height: 200px;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+figure:hover {
+  cursor: pointer;
+}
