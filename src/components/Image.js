@@ -5,7 +5,7 @@ export default function Image(props) {
   const {
     src,
     alt,
-    name,
+    
     handleClick,
    } = props;
 
@@ -17,7 +17,7 @@ export default function Image(props) {
         alt={alt}
         onClick={handleClick}
       />
-      <figcaption>{name}</figcaption>
+      
     </figure>
   )
 }
